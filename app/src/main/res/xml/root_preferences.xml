@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/sync_header"
+        app:icon="@drawable/ic_baseline_sync_24">
+
+        <SwitchPreferenceCompat
+            app:key="sync_type"
+            app:title="@string/sync_title"
+            app:summaryOn="@string/save_every_thing"
+            app:summaryOff="@string/save_only_recent_search"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

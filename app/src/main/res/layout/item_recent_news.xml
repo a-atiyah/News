@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_news"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="@dimen/medium_margin_8dp"
+        android:layout_marginTop="@dimen/medium_margin_8dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_news_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_margin_8dp"
+        android:layout_marginEnd="@dimen/medium_margin_8dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="@dimen/title_16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_news"
+        app:layout_constraintTop_toTopOf="@+id/iv_news"
+        tools:text="@string/t_news_title" />
+
+    <TextView
+        android:id="@+id/tv_author_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_margin_8dp"
+        android:text="@string/author"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_author"
+        app:layout_constraintStart_toEndOf="@+id/iv_news" />
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_margin_8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="@dimen/medium_margin_8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_author_label"
+        app:layout_constraintTop_toBottomOf="@+id/ll_tags"
+        tools:text="@string/t_author" />
+
+    <TextView
+        android:id="@+id/tv_date_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_margin_8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_author"
+        app:layout_constraintStart_toEndOf="@+id/tv_author"
+        tools:text="@string/dummy_date" />
+
+    <LinearLayout
+        android:id="@+id/ll_tags"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium_margin_8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_news_title"
+        app:layout_constraintTop_toBottomOf="@+id/tv_news_title">
+
+        <TextView
+            android:id="@+id/tv_tag_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_margin_8dp"
+            android:layout_marginEnd="@dimen/medium_margin_8dp"
+            android:background="@drawable/tag_bg"
+            android:paddingHorizontal="@dimen/small_padding_4dp"
+            android:paddingVertical="@dimen/xsmall_padding_2dp"
+            android:textColor="@color/black"
+            tools:text="@string/t_news" />
+
+        <TextView
+            android:id="@+id/tv_tag_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_margin_8dp"
+            android:layout_marginEnd="@dimen/medium_margin_8dp"
+            android:background="@drawable/tag_bg"
+            android:paddingHorizontal="@dimen/small_padding_4dp"
+            android:paddingVertical="@dimen/xsmall_padding_2dp"
+            android:textColor="@color/black"
+            tools:text="@string/t_country" />
+
+        <TextView
+            android:id="@+id/tv_tag_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_margin_8dp"
+            android:layout_marginEnd="@dimen/medium_margin_8dp"
+            android:background="@drawable/tag_bg"
+            android:paddingHorizontal="@dimen/small_padding_4dp"
+            android:paddingVertical="@dimen/xsmall_padding_2dp"
+            android:textColor="@color/black"
+            tools:text="@string/t_language" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

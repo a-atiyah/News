@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name" translatable="false">News</string>
+    <string name="recent_news">Recent Search News</string>
+    <string name="author">Author: </string>
+    <string name="t_author">Abdulrahman Alluhaibi</string>
+    <string name="dummy_date" translatable="false">2021-03-31 10:15:00</string>
+    <string name="t_news_title">News Title</string>
+    <string name="t_news">News</string>
+    <string name="t_country" translatable="false">US</string>
+    <string name="t_language" translatable="false">EN</string>
+    <string name="bookmark" >Bookmark</string>
+    <string name="cd_image">Image</string>
+    <string name="see_all"><u>See All</u></string>
+    <string name="btm_nav_home">home</string>
+    <string name="btm_nav_recent_news">Search</string>
+    <string name="btm_nav_bookmark">Bookmark</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_bookmark">Bookmark</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="created_by">Created By</string>
+    <string name="unknown">Unknown</string>
+    <string name="cd_search">Search</string>
+    <string name="e_g_elon_musk">e.g Elon Musk</string>
+    <string name="type_somthing">Please, type something to serve you!</string>
+    <string name="add_to_bookmark">Added to Bookmark</string>
+    <string name="removed_from_bookmark">Removed from Bookmark</string>
+    <string name="empty_bookmark">You have no bookmarks yet</string>
+    <string name="empty_search_result">You have no search results</string>
+    <string name="goto_source"><u><![CDATA[Goto Source ->]]></u></string>
+    <string name="msg_filter">There are no filter elements</string>
+    <string name="no_internet_connection">You are not connected to the internet</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="default_lang">English</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync search results</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="options_header">Options</string>
+    <string name="dark_theme_on">Dark Theme on</string>
+    <string name="dark_theme_off">Dark Theme Off</string>
+    <string name="save_every_thing">Save all search results</string>
+    <string name="save_only_recent_search">save only recent search result</string>
+    <string name="btm_nav_settings">Settings</string>
+    <string name="default_theme_value">Adaptive</string>
+    <string name="default_Theme">Theme</string>
+</resources>

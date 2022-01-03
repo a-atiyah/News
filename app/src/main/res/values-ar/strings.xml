@@ -1,0 +1,49 @@
+<resources>
+    <string name="recent_news">نتائج البحث الأخيرة</string>
+    <string name="author">الكاتب:  </string>
+    <string name="t_author">عبدالرحمن اللهيبي</string>
+    <string name="t_news_title">عنوان الخبر</string>
+    <string name="t_news">الأخبار</string>
+    <string name="bookmark">الإشارات المرجعية</string>
+    <string name="cd_image">صورة</string>
+    <string name="see_all"><u>مشاهدة الكل</u></string>
+    <string name="btm_nav_home">الرئيسية</string>
+    <string name="btm_nav_recent_news">البحث</string>
+    <string name="btm_nav_bookmark">الإشارات المرجعية </string>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_search">البحث</string>
+    <string name="title_bookmark">الإشارات المرجعية</string>
+    <string name="title_activity_details">التفاصيل</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="created_by">بواسطة</string>
+    <string name="unknown">مجهول</string>
+    <string name="cd_search">البحث</string>
+    <string name="e_g_elon_musk">الهلال</string>
+    <string name="type_somthing">يرجى ادخال بيانات!</string>
+    <string name="add_to_bookmark">تمت الإضافة للعلامات المرجعية</string>
+    <string name="removed_from_bookmark">تم الحذف من العلامات المرجعية</string>
+    <string name="empty_bookmark">لا يوجد لديك اشارات مرجعية</string>
+    <string name="empty_search_result">لا يوجد لديك سجل بحث</string>
+    <string name="goto_source"><u><![CDATA[الذهاب للمصدر ->]]></u></string>
+    <string name="msg_filter">لا توجد عناصر تصفية</string>
+    <string name="no_internet_connection">انت غير متصل بالإنترنت</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">الرسائل</string>
+    <string name="sync_header">مزامنة</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">التوقيع</string>
+    <string name="default_lang">الإنجليزية</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">مزامنة نتائج البحث</string>
+
+    <string name="options_header">Options</string>
+    <string name="dark_theme_on">تم تشغيل الوضع الليلي</string>
+    <string name="dark_theme_off">تم تعطيل الوضع الليلي</string>
+    <string name="save_every_thing">حفظ جميع نتائج البحث</string>
+    <string name="save_only_recent_search">حفظ نتائج البحث الأخيرة</string>
+    <string name="btm_nav_settings">الإعدادات</string>
+    <string name="default_theme_value">متكيف</string>
+    <string name="default_Theme">الثيم</string>
+</resources>

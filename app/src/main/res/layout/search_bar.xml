@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:drawablePadding="@dimen/small_padding_4dp"
+        android:hint="@string/e_g_elon_musk"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionSearch"/>
+
+    <ImageButton
+        android:id="@+id/ib_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/cd_search"
+        android:padding="@dimen/small_padding_4dp"
+        android:src="@drawable/ic_baseline_filter_list_24" />
+</RelativeLayout>

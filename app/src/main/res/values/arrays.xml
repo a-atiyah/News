@@ -1,0 +1,26 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>English</item>
+        <item>Arabic</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>English</item>
+        <item>Arabic</item>
+    </string-array>
+
+
+    <!-- Theme -->
+    <string-array name="theme_entries">
+        <item>Adaptive</item>
+        <item>Light</item>
+        <item>Night</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>Adaptive</item>
+        <item>Light</item>
+        <item>Night</item>
+    </string-array>
+</resources>

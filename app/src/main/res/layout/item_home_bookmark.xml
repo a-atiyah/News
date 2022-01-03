@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="225dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/default_crd_radius"
+    app:cardElevation="@dimen/default_crd_elevation"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+
+        <ImageView
+            android:id="@+id/iv_home_bookmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/cd_image"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="ImageContrastCheck" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_crd_bg" />
+
+        <TextView
+            android:id="@+id/tv_home_bookmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/small_padding_4dp"
+            android:textColor="@color/white"
+            tools:text="@string/t_news_title" />
+    </FrameLayout>
+</androidx.cardview.widget.CardView>
